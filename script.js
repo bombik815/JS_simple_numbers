@@ -12,4 +12,4 @@ function getPrimes(num) {
 	}
 	return primes;
 }
-console.log(getPrimes(120));
+console.log(getPrimes(process.argv[2]));
